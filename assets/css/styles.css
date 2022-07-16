@@ -1,0 +1,226 @@
+
+
+:root{
+    --header-height: 6rem;
+
+    /*colors*/
+
+    --first-color: #E6E7E8;
+    --text-color: #2D69AC;
+    --first-color-opacity:#0F243B;
+    --first-color-lighten: #;
+
+    /*font size*/
+
+    --body-font: ;
+    --biggest-font-size:2.5rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1.125rem;
+    --normal-font-size:.938rem;
+    --small-font-size:.813rem;
+    --smaller-font-size: .75rem;
+
+    /*font weight*/
+
+    --font-medium: 500;
+    --font-semi-bold:600;
+    --font-bold: 700;
+
+    /*margin*/
+
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+
+    /*z index */
+
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;   
+
+}
+
+@media screen and (min-width: 768px){
+    :root{
+        --biggest-font-size:4.5rem;
+        --h1-font-size:2.25rem;
+        --h2-font-size:1.5rem;
+        --h3-font-size:1.25rem;
+        --normal-font-size:1rem;
+        --small-font-size:.875rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+/* base */
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    background-color: var(--first-color);
+    color: var;
+    line-height: 1.6;
+}
+
+h1,h2,h3,ul,p{
+    margin: 0;
+}
+h2,h3{
+    font-weight: var(--font-semi-bold);
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* layout */
+.bd-grid{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+}
+.l-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--first-color);
+    box-shadow: 0 1px 4px rgba(146,161,176,.15);
+}
+
+/* nav */
+.nav{
+    background-color: var(--first-color);
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: var(--font-semi);
+}
+@media screen and (max-width: 768px){
+    .nav--menu{
+        position: fixed;
+        margin-top: var(--header-height);
+        top: -100%;
+        left: 0;
+        width: 100%;
+        padding-top: 1.5rem;
+        text-align: center;
+        background-color: var(--text-color);
+        transition: .8s;
+        box-shadow: 0 2px 4px rgba(0,0,0..1);
+        border-radius: 0 0 1rem 1rem;
+        opacity: .8;
+    }
+}
+.nav--item{
+    margin-bottom: var(--mb-4);
+}
+.nav--link{
+    color: var(--first-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-medium);
+}
+.nav--link:hover{
+    position: relative;
+    color: var(--first-color);
+}
+.nav--link:hover::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+.nav--logo{
+    color: var(--second-color);
+}
+.logo{
+    height: 70px;
+}
+.nav--toggle{
+    font-size: 1.5rem;
+}
+
+/* --- Menu Bars ------------------------------------ */
+
+.menu-bars {
+    right: 2rem;
+    z-index: 10;
+    display: inline;
+    cursor: pointer;
+  }
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 50px;
+    height: 6px;
+    background-color: var(--text-color);
+    margin: 8px 0;
+    transition: 0.4s;
+    font-size: 1.5rem;
+    border-radius: 20%;
+  }
+/* Rotate first bar */
+.change .bar1 {
+    transform: rotate(-45deg) translate(-7px, 8px);
+  }
+  
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+  }
+  
+/* Rotate last bar */
+.change .bar3 {
+    transform: rotate(45deg) translate(-12px, -12px);
+  }  
+/* show menu */
+
+.show{
+    top: 0;
+}
+
+/* active menu */
+.active-link{
+    position: relative;
+}
+.active-link::after{
+    content: '';
+    position: absolute;
+    bottom: -.7rem;
+    left: 0;
+    width: 65%;
+    height: 3px;
+    background-color: var(--first-color);
+}

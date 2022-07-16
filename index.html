@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> 
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Glaucus</title>
 </head>
@@ -13,18 +17,18 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             
-                <a href="#home" class="nav--logo">
+                <a href="/index.html" class="nav--logo">
                     <img class="nav logo" src="assets/img/logo.png" alt="logo">
                 </a>
           
 
             <div class="nav--menu" id="nav--menu">
                 <ul class="nav--list">
-                    <li class="nav--item"><a href="#productos" class="nav--link active-link">PRODUCTOS</a></li>
-                    <li class="nav--item"><a href="#capacitacion" class="nav--link">CAPACITACION</a></li>
-                    <li class="nav--item"><a href="#puntos" class="nav--link">PUNTOS DE VENTA</a></li>
-                    <li class="nav--item"><a href="#empresa" class="nav--link">EMPRESA</a></li>
-                    <li class="nav--item"><a href="#contacto" class="nav--link">CONTACTO</a></li>
+                    <li class="nav--item"><a href="/products.html" class="nav--link active-link">PRODUCTOS</a></li>
+                    <li class="nav--item"><a href="/capacitacion.html" class="nav--link">CAPACITACION</a></li>
+                    <li class="nav--item"><a href="/puntos.html" class="nav--link">PUNTOS DE VENTA</a></li>
+                    <li class="nav--item"><a href="/empresa.html" class="nav--link">EMPRESA</a></li>
+                    <li class="nav--item"><a href="/contacto.html" class="nav--link">CONTACTO</a></li>
                 </ul>
             </div>
 
@@ -40,12 +44,96 @@
 
     <main>
 
+        <section id="carrusel">
+            <div class="swiper-container swiper">
+                <div class="swiper-wrapper">
+                    <div class="carrusel--content swiper-slide">
+                        <img src="assets/img/53.jpg" alt="53" class="carrusel--img">                    
+                    </div>
+
+                    <div class="carrusel--content swiper-slide">
+                        <img src="assets/img/52.jpg" alt="52" class="carrusel--img">
+                    </div>
+
+                    <div class="carrusel--content swiper-slide">
+                        <img src="assets/img/53.jpg" alt="30" class="carrusel--img">
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="info-about">
+                <h1>Innovacion y compromiso de calidad</h1>
+                <p>Somos una empresa Lider en la fabricacion y desarrollo de perfiles de ACERO para la construccion en seco hace casi tres decadas. 
+                    Estamos comprometidos con el desarrollo del pais y con quienes trabajan con nosotros, ya que somos una empresa innovadora y confiable.
+                </p>
+            </div>
+        </section>
+
+        <section id="main-content">
+
+            <div class="section-container bd-grid">
+
+                <div>
+                    <div class="section-data">
+                        <img class="section-img" src="/assets/img/5.jpg" alt="">            
+                    </div>
+                    <h1>EMPRESA</h1>
+                    <p>Al dia de hoy, con una moderna platan industrial sobre la Ruta 2 de la ciudad de La Plata y unas
+                        10 sucursales en el pais, se convierte en empresa lider en la construccion en seco, aislaciones y 
+                        sistemas eficientes constructivos.</p>
+                    <img src="/assets/img/ver.png" alt="">
+                </div>
+
+                <div class="section-data">
+                    <img class="section-img" src="/assets/img/8.jpg" alt="">
+
+                    <h1>PRODUCTOS</h1>
+                    <p>Al dia de hoy, con una moderna platan industrial sobre la Ruta 2 de la ciudad de La Plata y unas
+                        10 sucursales en el pais, se convierte en empresa lider en la construccion en seco, aislaciones y 
+                        sistemas eficientes constructivos.</p>
+
+                    <img src="/assets/img/ver.png" alt="">
+                </div>
+
+                <div class="section-data">
+                    <img class="section-img" src="/assets/img/11.jpg" alt="">
+
+                    <h1>PUNTOS DE VENTA</h1>
+                    <p>Al dia de hoy, con una moderna platan industrial sobre la Ruta 2 de la ciudad de La Plata y unas
+                        10 sucursales en el pais, se convierte en empresa lider en la construccion en seco, aislaciones y 
+                        sistemas eficientes constructivos.</p>
+
+                    <img src="/assets/img/ver.png" alt="">
+                </div>
+
+                <div class="section-data">
+                    <img class="section-img" src="/assets/img/13.jpg" alt="">
+
+                    <h1>CAPACITACION</h1>
+                    <p>Al dia de hoy, con una moderna platan industrial sobre la Ruta 2 de la ciudad de La Plata y unas
+                        10 sucursales en el pais, se convierte en empresa lider en la construccion en seco, aislaciones y 
+                        sistemas eficientes constructivos.</p>
+
+                    <img src="/assets/img/ver.png" alt="">
+                </div>
+
+            </div>
+        </section>
+
     </main>
 
     <footer>
 
     </footer>
+
     
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>

@@ -1,7 +1,7 @@
 
 
 :root{
-    --header-height: 6rem;
+    --header-height: 5rem;
 
     /*colors*/
 
@@ -145,8 +145,7 @@ img{
 }
 .nav--link{
     color: var(--first-color);
-    font-size: var(--h1-font-size);
-    font-weight: var(--font-medium);
+    font-size: var(--normal-font-size);
 }
 .nav--link:hover{
     position: relative;
@@ -165,7 +164,7 @@ img{
     color: var(--second-color);
 }
 .logo{
-    height: 70px;
+    height: 50px;
 }
 .nav--toggle{
     font-size: 1.5rem;
@@ -183,10 +182,10 @@ img{
   .bar1,
   .bar2,
   .bar3 {
-    width: 50px;
-    height: 6px;
+    width: 35px;
+    height: 4px;
     background-color: var(--text-color);
-    margin: 8px 0;
+    margin: 4px 0;
     transition: 0.4s;
     font-size: 1.5rem;
     border-radius: 20%;
@@ -203,7 +202,7 @@ img{
   
 /* Rotate last bar */
 .change .bar3 {
-    transform: rotate(45deg) translate(-12px, -12px);
+    transform: rotate(45deg) translate(-4px, -4px);
   }  
 /* show menu */
 
@@ -230,45 +229,27 @@ img{
 /* carrusel */
 .carrusel--content{
     display: grid;
-    z-index: var(--z-normal);
-    /* background-color: var(--first-color);
-    color: var(--first-color-light);
-    border-radius: .5rem;
-    padding: 2rem 1rem;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(47, 10, 13, .25); */
-}
-/* .home--img{   
-    border-radius: .5rem;
-    justify-self: center;
-    margin-bottom: var(--mb-1);
-} */
-
-.swiper-pagination{
-    /* position: initial; */
-}
-.swiper-pagination-bullet-active{
-    /* background-color: var(--first-color); */
+    z-index: var(--z-normal);  
 }
 
 /* Info About */
 
 .info-about{
     height: 280px;
-    background-image: url(/assets/img/25.jpg);
+    background-image: url(/assets/img/fondo-azul.png);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
     text-align: center;
-    color: tomato;
+    color: var(--first-color);
 }
 .info-about h1{
-    font-size: 35px;
+    font-size: 23px;
     font-weight: var(--font-bold);
     padding-top: var(--mb-4);
 }
 .info-about p{
-    font-size: larger;
+    font-size: 15px;
     padding-top: var(--mb-4);
     padding-left: var(--mb-2);
     padding-right: var(--mb-2);
@@ -276,27 +257,43 @@ img{
 
 /* sections */
 
-/* .section-container{
-    width: 100%;
-    height: 300px;
+.info-container{
+    padding-top: .5rem;
 }
-.section-img img,
-.info{
-    flex: 1;
-} */
-.section-data{
-    position:relative;     
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
+.info-description-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 25px;
 }
-.section-data::after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-bottom: 300px solid var(--first-color);
-    border-left: 150px solid transparent;
-    position:absolute;
-    bottom:0;
-    right:0;
-}    
+.info-description-right h1{
+    color: var(--text-color);
+    font-size: 15px;
+}
+.info-description-right p{
+    text-align: end;
+}
+.info-description-right img{
+    width: 40px;
+    margin-top: .5rem;
+}
+
+.info-description-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    bottom: 25px;
+}
+.info-description-left h1{
+    color: var(--text-color);
+    font-size: 15px;
+}
+.info-description-left p{
+    text-align: start;
+}
+.info-description-left img{
+    width: 40px;
+    margin-top: .5rem;
+}

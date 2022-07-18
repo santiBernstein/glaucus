@@ -315,6 +315,8 @@ img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1rem;
+    width: 90%;
+    margin: auto;
 }
 .contact-input, .contact--button{
     outline: none;
@@ -324,17 +326,83 @@ img{
 .contact--input{
     width: 100%;
     padding: 1rem;
-    border: 3px solid var(--first-color-lighten);
+    border: none;
     color: var(--text-color);
-    border-radius: .5rem;
     margin-bottom: var(--mb-1);
+    background-color: unset;
+    border-bottom: solid 2px white;
 }
-.contact::placeholder{
-    color: var(--first-color-lighten);
+.contact--input::placeholder{
+    color: var(--first-color);
     font-family: var(--body-font);
     font-weight: var(--font-semi-bold);
+}
+.btn{
+    text-align: center;
+    position: relative;
+    bottom: 30px;
 }
 .contact--button{
     cursor: pointer;
     border: none;
+    background-color: #929497;
+    color: var(--first-color);
+}
+.contact--button:hover{
+    color: var(--text-color);
+}
+
+.msg{
+    background-color: var(--first-color);
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.pie{
+    background-image: url(/root/assets/img/fondo-footer.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-footer{
+    width: 170px;
+    margin: auto;
+    margin-top: 2rem;
+}
+.pie h1{
+    font-size: 15px;
+    margin-top: 2rem;
+    margin: auto;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.icon-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wp{
+    font-size: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    color: white;
+    padding: 0.1rem;
+    margin-right: 10px;
+}
+.icons{
+    margin: auto;
+    margin-top: 15px;
+}
+.icon-link{
+    font-size: 25px;
+    color: var(--text-color);
+    margin: 1px;
+    transition: .3s;
+}
+.icon-link:hover{
+    color: var(--first-color);
 }

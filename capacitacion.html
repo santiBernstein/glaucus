@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/capacitacion.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Glaucus</title>
 </head>
@@ -22,7 +24,6 @@
                 <ul class="nav--list">
                     <li class="nav--item"><a href="/products.html" class="nav--link active-link">PRODUCTOS</a></li>
                     <li class="nav--item"><a href="/capacitacion.html" class="nav--link">CAPACITACION</a></li>
-                    <li class="nav--item"><a href="/puntos.html" class="nav--link">PUNTOS DE VENTA</a></li>
                     <li class="nav--item"><a href="/empresa.html" class="nav--link">EMPRESA</a></li>
                     <li class="nav--item"><a href="/contacto.html" class="nav--link">CONTACTO</a></li>
                 </ul>
@@ -39,13 +40,102 @@
     </header>
 
     <main>
-            CAPACITACION
+
+            <!-- <div class="title-img">
+                <h1>Encontrá nuestros productos
+                    en todo el pais</h1>        
+            </div> -->
+
+            <section id="carrusel">
+                <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/53.jpg" alt="53" class="carrusel--img">                    
+                        </div>
+
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/52.jpg" alt="52" class="carrusel--img">
+                        </div>
+
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/53.jpg" alt="30" class="carrusel--img">
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+                <h1 class="carrusel-title">Encontrá nuestros productos
+                    en todo el pais</h1>
+                    
+        </section>
+
+            <div class="title-capacitacion">
+                <h1>CAPACITACION</h1>
+            </div>
+
+        <section class="capacitacion">
+
+        </section>   
+
+
     </main>
 
     <footer>
 
+        <section id="footer">
+
+            <div class="fondo-form bd-grid">
+                <div class="contact--content bd-grid">
+                    <h3 class="contact--title">CONTACTANOS</h3>
+                </div>
+
+                <form action="#" class="contact--form grid-item" id="contact-form">
+                    <div class="contact--inputs">
+                        <input type="text" placeholder="Nombre" class="contact--input name" required>
+                        <input type="text" placeholder="Apellido" class="contact--input lastname" required>
+                    </div>
+
+                    <div class="contact--inputs">
+                        <input type="number" placeholder="Telefono" class="contact--input phone" required>
+                        <input type="email" placeholder="Email" class="contact--input email" required>
+                    </div>
+
+                    <textarea class="contact--inputs msg" placeholder="Mensaje" name="" id="" cols="0" rows="10" required></textarea>
+                    
+                    <div class="btn">
+                    <input type="submit" value="Enviar" class="contact--button">
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="pie bd-grid">
+
+                <img class="logo-footer" src="/assets/img/logo-vertical.png" alt="">
+
+                <h1>Parque Industrial 2 - Km 50 Ruta 2. ABASTO</h1>
+
+                <div class="icon-phone">
+                    <i class='bx bxl-whatsapp wp'></i><p>(0221) 428-6150</p>
+                </div>
+                
+                <div class="icons">
+                    <a class="icon-link" href=""><i class='bx bxl-facebook-circle'></i></a>
+                    <a class="icon-link" href=""><i class='bx bxl-instagram'></i></a>
+                    <a class="icon-link" href=""><i class='bx bxl-twitter' ></i></a>
+                    <a class="icon-link" href=""><i class='bx bxl-linkedin-square'></i></a>
+                    <a class="icon-link" href=""><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+
+        </section>
+
     </footer>
     
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>

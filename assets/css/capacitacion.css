@@ -1,0 +1,52 @@
+@import url(/assets/css/styles.css);
+
+/* mobile */
+
+/* .title-img{
+    height: 280px;
+    color: black;
+    background-image: url(/assets/img/11.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.title-img h1{
+    font-family: 'montserratregular';
+    width: 80%;
+    text-align: start;
+    margin: auto;
+    padding-top: 180px;
+    font-size: 20px;
+} */
+
+.carrusel-title{
+    font-family: 'montserratregular';
+    font-weight: 100;
+    color: var(--first-color);
+    width: 80%;
+    text-align: start;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+    height: 0;
+}
+.title-capacitacion{
+    font-family: 'montserratbold';
+    height: 50px;
+    background-color: var(--text-color);
+    text-align: center;
+    color: var(--first-color);
+}
+.title-capacitacion h1{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.capacitacion{
+    height: 300px;
+    background-color: aquamarine;
+    margin: 20px;
+}

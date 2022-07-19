@@ -1,0 +1,43 @@
+@import url(/assets/css/styles.css);
+
+/* mobile */
+
+
+.carrusel-title{
+    font-family: 'montserratregular';
+    font-weight: 100;
+    color: var(--first-color);
+    width: 80%;
+    text-align: start;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+    height: 0;
+}
+
+.title-empresa{
+    font-family: 'montserratbold';
+    height: 50px;
+    background-color: var(--text-color);
+    text-align: center;
+    color: var(--first-color);
+}
+.title-empresa h1{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.video-institucional{
+    background-color: black;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+}
+.video-institucional p{
+    color: white;
+}

@@ -11,7 +11,7 @@
 
     /*font size*/
 
-    --body-font: 'robotobold';
+    --body-font: 'montserratregular';
     --biggest-font-size:2.5rem;
     --h1-font-size:1.5rem;
     --h2-font-size:1.25rem;
@@ -136,13 +136,14 @@ img{
         transition: .8s;
         box-shadow: 0 2px 4px rgba(0,0,0..1);
         border-radius: 0 0 1rem 1rem;
-        opacity: .8;
+        opacity: .9;
     }
 }
 .nav--item{
     margin-bottom: var(--mb-4);
 }
 .nav--link{
+    font-family: 'robotoregular';    
     color: var(--first-color);
     font-size: var(--normal-font-size);
 }
@@ -209,20 +210,6 @@ img{
     top: 0;
 }
 
-/* active menu */
-.active-link{
-    position: relative;
-}
-.active-link::after{
-    content: '';
-    position: absolute;
-    bottom: -.7rem;
-    left: 0;
-    width: 65%;
-    height: 3px;
-    background-color: var(--first-color);
-}
-
 /* HOME MOBILE*/
 
 /* carrusel */
@@ -236,18 +223,20 @@ img{
 .info-about{
     height: 280px;
     background-image: url(/assets/img/fondo-azul.png);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; 
+    background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color: var(--first-color);
 }
 .info-about h1{
+    font-family: 'montserratregular';
     font-size: 23px;
     font-weight: var(--font-bold);
     padding-top: var(--mb-4);
 }
 .info-about p{
+    font-family: 'roboto_condensedlight';
     font-size: 15px;
     padding-top: var(--mb-4);
     padding-left: var(--mb-2);
@@ -267,10 +256,12 @@ img{
     bottom: 25px;
 }
 .info-description-right h1{
+    font-family: 'montserratbold';
     color: var(--text-color);
     font-size: 15px;
 }
 .info-description-right p{
+    font-family: 'roboto_condensedregular';
     text-align: end;
 }
 .info-description-right img{
@@ -286,10 +277,12 @@ img{
     bottom: 25px;
 }
 .info-description-left h1{
+    font-family: 'montserratbold';
     color: var(--text-color);
     font-size: 15px;
 }
 .info-description-left p{
+    font-family: 'roboto_condensedregular';
     text-align: start;
 }
 .info-description-left img{
@@ -305,6 +298,7 @@ img{
     background-size: cover;
 }
 .contact--title{
+    font-family: 'montserratregular';
     color: var(--first-color);
     font-size: var(--h3-font-size);
     margin: var(--mb-1) 0;
@@ -342,6 +336,7 @@ img{
     bottom: 30px;
 }
 .contact--button{
+    font-family: 'montserratregular';
     cursor: pointer;
     border: none;
     background-color: #929497;
@@ -373,6 +368,7 @@ img{
     margin-top: 2rem;
 }
 .pie h1{
+    font-family: 'montserratlight';
     font-size: 15px;
     margin-top: 2rem;
     margin: auto;
@@ -383,6 +379,9 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.icon-phone p{
+    font-family: 'montserratlight';
 }
 .wp{
     font-size: 20px;

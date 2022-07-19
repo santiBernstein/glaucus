@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/root/assets/fonts/MONTSERRAT-REGULAR.OTF') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
 
 :root{
     --header-height: 5rem;
@@ -12,7 +17,7 @@
 
     /*font size*/
 
-    --body-font: ;
+    --body-font: 'Montserrat';
     --biggest-font-size:2.5rem;
     --h1-font-size:1.5rem;
     --h2-font-size:1.25rem;
@@ -236,7 +241,7 @@ img{
 
 .info-about{
     height: 280px;
-    background-image: url(/root/assets/img/fondo-azul.png);
+    background-image: url(/docs/assets/img/fondo-azul.png);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -300,7 +305,7 @@ img{
 
 /* footer */
 .fondo-form{
-    background-image: url(/root/assets/img/fondo-azul2.png);
+    background-image: url(/docs/assets/img/fondo-azul2.png);
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -394,7 +399,7 @@ img{
     margin-right: 10px;
 }
 .icons{
-    margin: auto;
+    margin: 15px auto;
     margin-top: 15px;
 }
 .icon-link{

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Glaucus</title>
 </head>
@@ -38,7 +40,46 @@
     </header>
 
     <main>
-            CONTACTO
+            <section id="carrusel">
+                <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/53.jpg" alt="53" class="carrusel--img">                    
+                        </div>
+
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/52.jpg" alt="52" class="carrusel--img">
+                        </div>
+
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/53.jpg" alt="30" class="carrusel--img">
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </section>
+
+            <!-- <div class="title-contacto">
+                <h1>CONTACTO</h1>
+            </div> -->
+
+            <div class="contact-map bd-grid">
+                <div class="contact-description">
+                    <h1>Parque Industrial 2 - Km 50 Ruta 2. ABASTO</h1>
+    
+                    <div class="icon-phone">
+                        <i class='bx bxl-whatsapp wp'></i><p>(0221) 428-6150</p>
+                    </div>
+                </div>
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d104629.6889761114!2d-58.14910425287321!3d-34.96468563338178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x95a2db29e24afe67%3A0x8c62b0acd7095a5a!2sParque%20Industrial%202%2C%20Abasto%2C%20Provincia%20de%20Buenos%20Aires!3m2!1d-34.9785551!2d-58.1527147!4m0!5e0!3m2!1ses-419!2sar!4v1658445300070!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
     </main>
 
     <footer>
@@ -93,6 +134,7 @@
 
     </footer>
     
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>

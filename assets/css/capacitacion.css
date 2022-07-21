@@ -22,7 +22,7 @@
 
 .carrusel-title{
     font-family: 'montserratregular';
-    font-weight: 100;
+    font-weight: bold;
     color: var(--first-color);
     width: 80%;
     text-align: start;

@@ -1,0 +1,24 @@
+.title-contacto{
+    font-family: 'montserratbold';
+    height: 50px;
+    background-color: var(--text-color);
+    text-align: center;
+    color: var(--first-color);
+}
+.title-contacto h1{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contact-description{
+    margin: 10px;
+}
+.contact-description h1{
+    font-size: 23px;
+    text-align: center;
+}
+
+.map iframe{
+    border: 2px solid;
+    width: 100%;
+}

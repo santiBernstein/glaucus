@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/products.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Glaucus</title>
 </head>
@@ -38,7 +40,59 @@
     </header>
 
     <main>
-            PRODUCTOS
+            
+            <section id="carrusel">
+                <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/61.jpg" alt="53" class="carrusel--img">                    
+                        </div>
+
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/62.jpg" alt="52" class="carrusel--img">
+                        </div>
+
+                        <div class="carrusel--content swiper-slide">
+                            <img src="assets/img/53.jpg" alt="30" class="carrusel--img">
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    
+                    <h1 class="carrusel-title">Fabricamos cada producto bajo estrictas normas</h1>
+
+                </div>
+            </section>
+
+            <div class="title-products">
+                <h1>PRODUCTOS</h1>
+            </div>
+
+            <div class="info-container bd-grid">
+
+                <div class="info-card">
+                        <img class="info-img" src="assets/img/corte1.png" alt="">       
+                    
+                    <div class="info-description-right">
+                        <h1>DRY WALL</h1>
+                        
+                        <a href="dryWall.html"><img src="assets/img/ver.png" alt="ver"></a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                        <img class="info-img" src="assets/img/corte2.png" alt="">       
+                    
+                    <div class="info-description-left">
+                        <h1>STEEL FRAMING</h1>
+                        
+                        <a href="steelFraming.html"><img src="assets/img/ver.png" alt="ver"></a>
+                    </div>
+                </div>
+            </div>
+
     </main>
 
     <footer>
@@ -93,6 +147,7 @@
 
     </footer>
     
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>

@@ -1,0 +1,47 @@
+.title-products{
+    font-family: 'montserratbold';
+    height: 50px;
+    background-color: var(--text-color);
+    text-align: center;
+    color: var(--first-color);
+}
+.title-products h1{
+    font-size: 20px;
+    padding: 10px;
+}
+.carrusel-title{
+    font-family: 'montserratregular';
+    font-weight: bold;
+    color: var(--first-color);
+    width: 80%;
+    text-align: start;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+    height: 0;
+}
+
+.info-img{
+    background-color: #B4B7BA;
+}
+
+.info-description-right,
+.info-description-left{
+    bottom: 50px;
+    height: 10px;
+}
+.info-description-left{
+    padding-left: 5px;
+}
+.info-description-left h1{
+    font-size: 14px;
+}
+.info-description-right{
+    padding-right: 10px;
+}
+
+.fondo-form{
+    margin-top: 20px;
+}

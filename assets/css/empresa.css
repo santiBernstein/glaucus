@@ -5,7 +5,6 @@
 
 .carrusel-title{
     font-family: 'montserratregular';
-    font-weight: 100;
     color: var(--first-color);
     width: 80%;
     text-align: start;
@@ -15,6 +14,7 @@
     bottom: 100px;
     z-index: 1;
     height: 0;
+    font-weight: bold;
 }
 
 .title-empresa{

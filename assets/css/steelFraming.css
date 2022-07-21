@@ -1,0 +1,53 @@
+.info-card{
+    width: 90%;
+    margin: auto;
+}
+
+.info-description-left h1{
+    border-bottom: solid;
+}
+.info-description-left p{
+    color: #2D69AC;
+    font-family: 'montserratbold';
+    padding-top: 5px;
+}
+.info-description-left span{
+    font-family: 'roboto_condensedregular';
+    padding-top: 5px;
+}
+
+.detail-container{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.detail-description h1{
+    font-family: 'montserratbold';
+}
+.detail-description p,
+.detail-description ul li{
+    font-family: 'montserratregular';
+}
+
+.descarga{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.icon-descarga{
+    font-size: 30px;
+    color: black;
+}
+.detail-description span{
+    font-family: 'montserratbold';
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.detail-img{
+    display: flex;
+    flex-direction: column;
+}
+.detail-img img{
+    padding: 5px;
+}

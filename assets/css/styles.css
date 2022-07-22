@@ -222,7 +222,7 @@ img{
 
 .info-about{
     height: 280px;
-    background-image: url(/assets/img/fondo-azul.png);
+    background-image: url(./assets/img/fondo-azul.png);
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;

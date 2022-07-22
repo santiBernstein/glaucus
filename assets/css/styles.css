@@ -222,7 +222,7 @@ img{
 
 .info-about{
     height: 280px;
-    background-image: url(./img/fondo-azul.png);
+    background-image: url(../img/fondo-azul.png);
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -292,7 +292,7 @@ img{
 
 /* footer */
 .fondo-form{
-    background-image: url(/assets/img/fondo-azul2.png);
+    background-image: url(../img/fondo-azul2.png);
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -357,7 +357,7 @@ img{
 }
 
 .pie{
-    background-image: url(/assets/img/fondo-footer.png);
+    background-image: url(../img/fondo-footer.png);
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;

@@ -25,11 +25,12 @@
 
 .info-img{
     background-color: #B4B7BA;
+    height: 230px;
 }
 
 .info-description-right,
 .info-description-left{
-    bottom: 50px;
+    bottom: 55px;
     height: 10px;
 }
 .info-description-left{

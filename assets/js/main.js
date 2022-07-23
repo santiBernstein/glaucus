@@ -20,6 +20,8 @@ const swiper = new Swiper('.swiper', {
     spaceBetween: 16,
     loop: false,
     grabCursor: true,
+    autoHeight: true,
+    allowTouchMove: true,
   
     pagination: {
       el: '.swiper-pagination',
@@ -30,10 +32,10 @@ const swiper = new Swiper('.swiper', {
             slidesPerView: 1,
         },
         768:{
-            slidesPerView:3,
+            slidesPerView:1,
         },        
         1024:{
-            slidesPerView: 4,
+            slidesPerView: 1,
         },
     },     
    

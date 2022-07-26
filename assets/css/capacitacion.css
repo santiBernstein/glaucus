@@ -50,3 +50,12 @@
     background-color: aquamarine;
     margin: 20px;
 }
+
+@media screen and (min-width: 1024px){
+
+    .carrusel-title{
+        bottom: 180px;
+        width: 60%;
+        font-size: 35px;
+    }
+}    

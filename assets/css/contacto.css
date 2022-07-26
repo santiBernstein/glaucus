@@ -1,23 +1,31 @@
-.title-contacto{
+.contact-description{
     font-family: 'montserratbold';
-    height: 50px;
+    height: 90px;
     background-color: var(--text-color);
     text-align: center;
     color: var(--first-color);
-}
-.title-contacto h1{
-    font-size: 20px;
-    padding: 10px;
-}
-
-.contact-description{
-    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .contact-description h1{
-    font-size: 23px;
-    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+}
+.link-phone{
+    color: white;
 }
 
 .map iframe{
     width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .map{
+        width: 80%;
+        margin: auto;
+    }
+    .map iframe{
+        height: 500px;
+    }
+    
 }

@@ -169,7 +169,8 @@ img{
     font-size: 1.5rem;
 }
 .icons-nav{
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
     height: 0;
 }
 
@@ -216,9 +217,17 @@ img{
 /* HOME MOBILE*/
 
 /* carrusel */
+.carrusel{
+    width: 100%;
+}
+
 .carrusel--content{
+    width: 100%;
     display: grid;
     z-index: var(--z-normal);  
+}
+.carrusel--content img{
+    width: 100%;
 }
 
 /* Info About */
@@ -293,12 +302,38 @@ img{
     margin-top: .5rem;
 }
 
+/* separador */
+.icons-separador{
+    display: none;
+    height: 360px;
+}
+.arriba-separador{
+    height: 130px;
+}
+.abajo-separador{
+    height: 215px;
+    background-color: var(--text-color);
+}
+.icons-separador img{
+    width: 800px;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+}
+
 /* footer */
 .fondo-form{
     background-image: url(../img/fondo-azul2.png);
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
+}
+.contact-content{
+    margin-top: 10px;
+}
+.contact--form{
+    position: relative;
+    height: 255px;
 }
 .contact--title{
     font-family: 'montserratregular';
@@ -368,7 +403,7 @@ img{
 .logo-footer{
     width: 170px;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 .pie h1{
     font-family: 'montserratlight';
@@ -446,7 +481,8 @@ img{
         padding-left: 50%;
     }
     .icons-nav{
-        visibility: visible;
+        /* visibility: visible; */
+        display: inline;
         padding-top: 20px;
         padding-right: 10px;
     }
@@ -500,6 +536,7 @@ img{
         align-items: flex-start;
         padding-top: 70px;
         bottom: 0;
+        width: 40%;
     }
     .info-description-right h1{
         font-size: 40px;
@@ -509,8 +546,8 @@ img{
         padding-right: 25px;
     }
     .info-description-right img{
-        width: 30px;
-        height: 15px;
+        width: 50px;
+        height: 25px;
     }
 
     .left-card{
@@ -520,6 +557,7 @@ img{
         align-items: flex-end;
         padding-top: 70px;
         bottom: 0;
+        width: 40%;
     }
     .info-description-left h1{
         font-size: 40px;
@@ -529,15 +567,25 @@ img{
         padding-left: 25px;
     }
     .info-description-left img{
-        width: 30px;
-        height: 15px;
+        width: 50px;
+        height: 25px;
+    }
+
+    .icons-separador{
+        display: inline;
     }
 
     .contact--form{
         width: 50%;
         margin: auto;
+        height: 280px;
     }
     .msg{
         height: 200px;
     }
+}
+
+@media screen and (min-width: 1024px){
+
+    
 }

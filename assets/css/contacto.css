@@ -1,6 +1,6 @@
 .contact-description{
     font-family: 'montserratbold';
-    height: 90px;
+    height: 120px;
     background-color: var(--text-color);
     text-align: center;
     color: var(--first-color);
@@ -20,6 +20,9 @@
 }
 
 @media screen and (min-width: 768px){
+    .contact-description{
+        height: 90px;
+    }
     .map{
         width: 80%;
         margin: auto;

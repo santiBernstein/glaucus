@@ -530,24 +530,22 @@ img{
         margin-top: 10px;
     }
     .info-card img{
-        height: 300px;
+        height: 210px;
     }
     .info-description-right{
         align-items: flex-start;
-        padding-top: 70px;
         bottom: 0;
         width: 40%;
     }
     .info-description-right h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .info-description-right p{
         text-align: justify;
-        padding-right: 25px;
     }
     .info-description-right img{
-        width: 50px;
-        height: 25px;
+        width: 45px;
+        height: 20px;
     }
 
     .left-card{
@@ -555,20 +553,18 @@ img{
     }
     .info-description-left{
         align-items: flex-end;
-        padding-top: 70px;
         bottom: 0;
         width: 40%;
     }
     .info-description-left h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .info-description-left p{
         text-align: justify;
-        padding-left: 25px;
     }
     .info-description-left img{
-        width: 50px;
-        height: 25px;
+        width: 45px;
+        height: 20px;
     }
 
     .icons-separador{
@@ -587,5 +583,16 @@ img{
 
 @media screen and (min-width: 1024px){
 
-    
+    .info-card img{
+        height: 300px;
+    }
+    .info-description-left,
+    .info-description-right{
+        justify-content: center;
+    }
+    .info-description-right img,
+    .info-description-left img {
+        width: 45px;
+        height: 20px;
+    }    
 }

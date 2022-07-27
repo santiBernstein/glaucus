@@ -38,6 +38,9 @@
     font-size: 30px;
     color: black;
 }
+.icon-descarga:hover{
+    color: #2D69AC;
+}
 .detail-description span{
     font-family: 'montserratbold';
     font-size: 10px;
@@ -50,4 +53,27 @@
 }
 .detail-img img{
     padding: 5px;
+}
+
+@media screen and (min-width: 768px){
+
+    .info-card{
+        margin-top: 110px;
+        flex-direction: row-reverse;
+    }
+    .detail-container{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .detail-img{
+        flex-direction: inherit;        
+        width: 100%;
+        justify-content: space-around;
+    }
+    .detail-description{
+        margin-left: 20px;
+    }
 }

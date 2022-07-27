@@ -13,6 +13,18 @@ menuBars.addEventListener('click', toggleNav);
 // active and remove menu //
 const navLink = document.querySelectorAll('.nav--link')
 
+function linkAction (){
+    //active link
+    navLink.forEach(n => n.classList.remove('active'))
+    this.classList.add('active')
+
+    //remove menu mobile    
+    navMenu.classList.remove('show');
+    menuBars.classList.remove('change');
+}
+
+navLink.forEach(n => n.addEventListener('click', linkAction))
+
 //swiper
 
 const swiper = new Swiper('.swiper', {

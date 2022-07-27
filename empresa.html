@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/empresa.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -88,41 +89,41 @@
                 <div class="info-container bd-grid">
     
                     <div class="info-card">
-                            <img class="info-img" src="assets/img/corte-empresa1.png" alt="">       
+                            <img class="info-img" data-aos="fade-right" data-aos-delay="900" src="assets/img/corte-empresa1.png" alt="">       
                         
                         <div class="info-description-right">
-                            <h1>Misión. Vision. Valores</h1>
-                            <p>Al día de hoy, con una moderna planta industrial sobre 
+                            <h1 data-aos="fade-up" data-aos-delay="900">Misión. Vision. Valores</h1>
+                            <p data-aos="fade-up" data-aos-delay="1000">Al día de hoy, con una moderna planta industrial sobre 
                                 la Ruta 2 de la ciudad de La Plata y  unas 10 sucursales
                                 en el país, se convierte en empresa líder en la construcción
                                 en seco, aislaciones y sistemas eficientes constructivos.</p>
-                            <a href="/empresa.html"><img src="assets/img/ver.png" alt="ver"></a>
+                            <a href="/empresa.html"><img data-aos="fade-up" data-aos-delay="1100" src="assets/img/ver.png" alt="ver"></a>
                         </div>
                     </div>
     
                     <div class="info-card left-card">
-                            <img class="info-img" src="assets/img/corte-empresa2.png" alt="">       
+                            <img class="info-img" data-aos="fade-left" data-aos-delay="900" src="assets/img/corte-empresa2.png" alt="">       
                         
                         <div class="info-description-left">
-                            <h1>Plata Industrial</h1>
-                            <p>Al día de hoy, con una moderna planta industrial sobre 
+                            <h1 data-aos="fade-up" data-aos-delay="900">Plata Industrial</h1>
+                            <p data-aos="fade-up" data-aos-delay="1000">Al día de hoy, con una moderna planta industrial sobre 
                                 la Ruta 2 de la ciudad de La Plata y  unas 10 sucursales
                                 en el país, se convierte en empresa líder en la construcción
                                 en seco, aislaciones y sistemas eficientes constructivos.</p>
-                            <a href="/products.html"><img src="assets/img/ver.png" alt="ver"></a>
+                            <a href="/products.html"><img data-aos="fade-up" data-aos-delay="1100" src="assets/img/ver.png" alt="ver"></a>
                         </div>
                     </div>
     
                     <div class="info-card">
-                            <img class="info-img" src="assets/img/corte-empresa3.png" alt="">       
+                            <img class="info-img" data-aos="fade-right" data-aos-delay="900" src="assets/img/corte-empresa3.png" alt="">       
                         
                         <div class="info-description-right">
-                            <h1>Certificaciones</h1>
-                            <p>Al día de hoy, con una moderna planta industrial sobre 
+                            <h1 data-aos="fade-up" data-aos-delay="900">Certificaciones</h1>
+                            <p data-aos="fade-up" data-aos-delay="1000">Al día de hoy, con una moderna planta industrial sobre 
                                 la Ruta 2 de la ciudad de La Plata y  unas 10 sucursales
                                 en el país, se convierte en empresa líder en la construcción
                                 en seco, aislaciones y sistemas eficientes constructivos.</p>
-                            <a href="/puntos.html"><img src="assets/img/ver.png" alt="ver"></a>
+                            <a href="/puntos.html"><img data-aos="fade-up" data-aos-delay="1100" src="assets/img/ver.png" alt="ver"></a>
                         </div>
                     </div>    
                               
@@ -189,6 +190,16 @@
 
     </footer>
     
+    <!--  AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        delay: 200,
+        duration: 1500,
+        once: true,
+
+    });
+    </script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 

@@ -358,7 +358,8 @@ img{
     width: 100%;
     padding: 1rem;
     border: none;
-    color: var(--text-color);
+    color: white;
+    font-size: 20px;
     margin-bottom: var(--mb-1);
     background-color: unset;
     border-bottom: solid 2px white;
@@ -387,6 +388,7 @@ img{
 .msg{
     background-color: var(--first-color);
     width: 90%;
+    font-size: 20px;
     text-align: center;
     border-radius: 5px;
     border: solid 1px black;

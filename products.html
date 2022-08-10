@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/products.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Glaucus</title>
 </head>
 <body>
@@ -116,22 +116,24 @@
                     <h3 class="contact--title">CONTACTANOS</h3>
                 </div>
 
-                <form action="#" class="contact--form grid-item" id="contact-form">
+                <form action="https://formsubmit.co/info.glaucusperfiles@gmail.com" method="post" class="contact--form grid-item" id="contact-form">
                     <div class="contact--inputs">
-                        <input type="text" placeholder="Nombre" class="contact--input name" required>
-                        <input type="text" placeholder="Apellido" class="contact--input lastname" required>
+                        <input name="Nombre" type="text" placeholder="Nombre" class="contact--input name" required>
+                        <input name="Apellido" type="text" placeholder="Apellido" class="contact--input lastname" required>
                     </div>
 
                     <div class="contact--inputs">
-                        <input type="number" placeholder="Telefono" class="contact--input phone" required>
-                        <input type="email" placeholder="Email" class="contact--input email" required>
+                        <input name="Telefono" type="number" placeholder="Telefono" class="contact--input phone" required>
+                        <input name="Email" type="email" placeholder="Email" class="contact--input email" required>
                     </div>
 
-                    <textarea class="contact--inputs msg" placeholder="Mensaje" name="" id="" cols="0" rows="10" required></textarea>
+                    <textarea name="Mensaje" class="contact--inputs msg" placeholder="Mensaje" name="" id="" cols="0" rows="10" required></textarea>
                     
                     <div class="btn">
                     <input type="submit" value="Enviar" class="contact--button">
                     </div>
+
+                    <input type="hidden" name="_next" value="https://santibernstein.github.io/glaucus/">
 
                 </form>
             </div>

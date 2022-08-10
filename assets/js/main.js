@@ -1,4 +1,7 @@
-// menu show //
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+   // menu show //
 const menuBars = document.getElementById('menu-bars');
 const navMenu = document.getElementById('nav--menu');
 
@@ -13,7 +16,7 @@ menuBars.addEventListener('click', toggleNav);
 // active and remove menu //
 const navLink = document.querySelectorAll('.nav--link')
 
-function linkAction (){
+function linkAction () {
     //active link
     navLink.forEach(n => n.classList.remove('active'))
     this.classList.add('active')
@@ -26,7 +29,6 @@ function linkAction (){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 //swiper
-
 const swiper = new Swiper('.swiper', {
     
     spaceBetween: 16,
@@ -34,21 +36,9 @@ const swiper = new Swiper('.swiper', {
     grabCursor: true,
     autoHeight: true,
     allowTouchMove: true,
-  
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-    },
-    breakpoints:{
-        576:{
-            slidesPerView: 1,
-        },
-        768:{
-            slidesPerView:1,
-        },        
-        1024:{
-            slidesPerView: 1,
-        },
-    },     
-   
+    }
   });
+  }, false);

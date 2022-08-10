@@ -45,8 +45,9 @@
 @media screen and (min-width: 1024px){
 
     .carrusel-title{
-        bottom: 180px;
+        bottom: 120px;
         width: 60%;
         font-size: 35px;
+        margin-left: 50px;
     }
 }    

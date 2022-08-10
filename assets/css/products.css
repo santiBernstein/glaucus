@@ -28,19 +28,14 @@
     /* height: 230px; */
 }
 
-.info-description-right,
-.info-description-left{
-    bottom: 55px;
-    height: 10px;
-}
-.info-description-left{
-    padding-left: 5px;
-}
-.info-description-left h1{
-    font-size: 14px;
-}
 .info-description-right{
-    padding-right: 10px;
+    bottom: 70px;
+    height: 10px;
+    padding-right: .5rem;
+}
+.info-description-right h1{
+    color: black;
+    font-size: 17px;
 }
 
 .fondo-form{
@@ -50,30 +45,35 @@
 @media screen and (min-width: 768px){
     
     .info-description-right{
-        bottom: 100px;
+        bottom: 120px;
         align-items: flex-end;
         padding-top: 0;
         width: inherit;
+        padding-right: 3rem;
+    }
+    .info-description-right h1{
+        font-size: 35px;
     }
 }
 
 @media screen and (min-width: 1024px){
 
     .carrusel-title{
-        bottom: 180px;
+        bottom: 120px;
         width: 60%;
         font-size: 35px;
+        margin-left: 50px;
     }
     
     .product-container{
         grid-template-columns: repeat(2, 1fr);
     }
     .info-description-right{
-        bottom: 145px;
-        padding-right: 25px;
+        bottom: 105px;
+        padding-right: 20px;
     }
     .info-description-right .dry{
-        font-size: 30px;
+        font-size: 23px;
         color: black;
     }
     .info-description-right .steel{

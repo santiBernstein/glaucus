@@ -11,6 +11,7 @@ document.addEventListener(
         // Busco que link tiene la misma propiedad href que la URI
         for (let link of links) {
             const { pathname } = link
+            console.log(pathname, uri, link)
             if (pathname == uri) {
                 link.classList.add("active-link")
             }

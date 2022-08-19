@@ -24,6 +24,9 @@
 .detail-description h1{
     font-family: 'montserratbold';
 }
+.detail-description p{
+    width: 75%;
+}
 .detail-description p,
 .detail-description ul li{
     font-family: 'montserratregular';
@@ -61,17 +64,17 @@
         margin-top: 110px;
         flex-direction: row-reverse;
     }
-    .detail-container{
+    /* .detail-container{
         display: flex;
-    }
+    } */
 }
 
 @media screen and (min-width: 1024px){
 
     .detail-img{
-        flex-direction: inherit;        
-        width: 100%;
-        justify-content: space-around;
+        /* flex-direction: inherit;         */
+        width: 60%;
+        /* justify-content: space-around; */
     }
     .detail-description{
         margin-left: 20px;

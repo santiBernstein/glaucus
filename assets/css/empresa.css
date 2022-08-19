@@ -47,6 +47,15 @@
     color: white;
 }
 
+@media screen and (min-width:768px){
+
+    .info-description-right h1,
+    .info-description-left h1{
+        font-size: 35px;
+    }
+
+}
+
 @media screen and (min-width: 1024px){
 
     .carrusel-title{

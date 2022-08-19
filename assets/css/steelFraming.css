@@ -5,6 +5,7 @@
 
 .info-description-left h1{
     border-bottom: solid;
+    font-size: 17px;
 }
 .info-description-left p{
     color: #2D69AC;
@@ -63,6 +64,9 @@
     .info-card{
         margin-top: 110px;
         flex-direction: row-reverse;
+    }
+    .info-description-left h1{
+        font-size: 35px;
     }
     /* .detail-container{
         display: flex;

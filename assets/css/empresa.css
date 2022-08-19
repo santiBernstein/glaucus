@@ -29,6 +29,11 @@
     padding: 10px;
 }
 
+.info-description-right h1,
+.info-description-left h1{
+    font-size: 14px;
+}
+
 .video-institucional{
     background-color: black;
     height: 300px;

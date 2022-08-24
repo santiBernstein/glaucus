@@ -141,6 +141,27 @@ img{
 .nav--item{
     margin-bottom: var(--mb-4);
 }
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: var(--text-color);
+    top: 33px;
+    padding: 10px;
+}
+.sub-item{
+    margin-left: 10px;
+    margin-top: 2px;
+    color: var(--first-color);
+    font-family: 'robotoregular';
+}
+.nav--list .nav--item:hover .submenu{
+    display: block;
+}
+.nav--list{
+    position: relative;
+}
+
 .nav--link{
     font-family: 'robotoregular';    
     color: var(--first-color);

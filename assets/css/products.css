@@ -54,6 +54,7 @@
     .info-description-right h1{
         font-size: 35px;
     }
+   
 }
 
 @media screen and (min-width: 1024px){
@@ -65,9 +66,7 @@
         margin-left: 50px;
     }
     
-    .product-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
+   
     .info-description-right{
         bottom: 105px;
         padding-right: 20px;
@@ -85,4 +84,10 @@
    .info-description-right img{
     width: 55px;
    }
+   .product-container{
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+}
 }

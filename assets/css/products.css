@@ -22,6 +22,9 @@
     z-index: 1;
     height: 0;
 }
+.product-container{
+    padding-top: 10px;
+}
 
 .info-img{
     background-color: #B4B7BA;
@@ -88,6 +91,5 @@
     grid-template-columns: repeat(2, 1fr);
     width: 85%;
     margin: auto;
-    padding-top: 10px;
 }
 }

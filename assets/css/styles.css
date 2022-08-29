@@ -190,7 +190,7 @@ img{
     color: var(--second-color);
 }
 .logo{
-    height: 65px;
+    height: 50px;
 }
 .nav--toggle{
     font-size: 1.5rem;
@@ -518,6 +518,7 @@ img{
     }
     .logo{
         padding-left: 47%;
+        height: 65px;
     }
     .icons-nav{
         display: inline;

@@ -141,7 +141,9 @@ img{
 .nav--item{
     margin-bottom: var(--mb-4);
 }
-
+.hover-submenu:hover{
+    display: block;
+}
 .submenu{
     display: none;
     position: absolute;

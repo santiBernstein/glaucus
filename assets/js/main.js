@@ -11,7 +11,6 @@ document.addEventListener(
         // Busco que link tiene la misma propiedad href que la URI
         for (let link of links) {
             const { pathname } = link
-            console.log(pathname, uri, link)
             if (pathname == uri) {
                 link.classList.add("active-link")
             }
@@ -58,6 +57,30 @@ document.addEventListener(
         clickable: true,
       },
     });
+
+    // work mix buttons
+
+    let mixer = mixitup(".detail-cards",  {
+      selectors: {
+          target: '.detail-container'
+      },
+      animation: {
+          duration: 450,
+      }
+    });
+
+    //active products link
+
+    const prodLink = document.querySelectorAll('.btn-select')
+
+    function linkAction (){
+        //active link
+        prodLink.forEach(n => n.classList.remove('active-select'))
+        this.classList.add('active-select')   
+    }
+
+    prodLink.forEach(n => n.addEventListener('click', linkAction))
+    
   },
   false
 );

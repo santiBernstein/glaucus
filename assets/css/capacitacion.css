@@ -2,24 +2,6 @@
 
 /* mobile */
 
-/* .title-img{
-    height: 280px;
-    color: black;
-    background-image: url(/assets/img/11.jpg);
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-.title-img h1{
-    font-family: 'montserratregular';
-    width: 80%;
-    text-align: start;
-    margin: auto;
-    padding-top: 180px;
-    font-size: 20px;
-} */
-
 .carrusel-title{
     font-family: 'montserratregular';
     font-weight: bold;
@@ -27,9 +9,9 @@
     width: 80%;
     text-align: start;
     margin: auto;
-    font-size: 20px;
+    font-size: 35px;
     position: relative;
-    bottom: 100px;
+    bottom: 220px;
     z-index: 1;
     height: 0;
 }
@@ -54,9 +36,9 @@
 @media screen and (min-width: 1024px){
 
     .carrusel-title{
-        bottom: 120px;
+        bottom: 240px;
         width: 60%;
-        font-size: 35px;
+        font-size: 50px;
         margin-left: 50px;
     }
 }    

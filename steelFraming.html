@@ -36,7 +36,12 @@
 
             <div class="nav--menu" id="nav--menu">
                 <ul class="nav--list">
-                    <li class="nav--item"><a href="products.html" class="nav--link">PRODUCTOS</a></li>
+                    <li class="nav--item"><a href="products.html" class="nav--link">PRODUCTOS</a>
+                        <ul class="submenu">
+                            <li class="sub-item"><a class="nav--link" href="dryWall.html">DRY WALL</a></li>
+                            <li class="sub-item"><a class="nav--link" href="steelFraming.html">STEEL FRAME</a></li>
+                        </ul>            
+                    </li>
                     <li class="nav--item"><a href="capacitacion.html" class="nav--link">CAPACITACION</a></li>
                     <li class="nav--item"><a href="empresa.html" class="nav--link">EMPRESA</a></li>
                     <li class="nav--item"><a href="contacto.html" class="nav--link">CONTACTO</a></li>
@@ -73,16 +78,47 @@
 
             <div class="bd-grid">
 
-                <div class="detail-container">                    
+                <div class="selector">
+                    <div>
+                        <button class="btn-select" data-filter=".pgu" value="">PERFIL INDUSTRIALIZADO “U” PGU</button>
+                        <button class="btn-select" data-filter=".pgc">PERFIL INDUSTRIALIZADO “C” PGC</button> </button>
+                        <button class="btn-select" data-filter=".pgo" value=".omega">OMEGA ESTRUCTURAL - PGO</button>                        
+                    </div>
+                </div>
+
+                <div class="detail-cards">
+
+                    <div class=" mix detail-container pgu">                    
+                            <div class="detail-description">
+                                <h1>PERFIL INDUSTRIALIZADO “U” PGU</h1>
+                                <p>Solera se usa como:</p>
+                                <ul>
+                                    <li>Viga-Puntal-Bloqueador-Cenefa-Atiesador.</li>
+                                    <li>Perfil galvanizado.</li>
+                                    <!-- <li>Dimensiones PGC</li>
+                                    <li>100x40x12 (x6m) ESP 0,94</li>
+                                    <li>150x40x12 (x6m) ESP 1,28</li> -->
+                                </ul>
+                                <div class="descarga">
+                                <a href=""><i class='bx bx-import icon-descarga'></i></a>
+                                <span>DESCARGAR FICHA TECNICA</span>
+                                </div>  
+                            </div>
+
+                            <div class="detail-img cuadro-grande">
+                                <img class="cuadro" src="assets/img/pgu.png" alt="">
+
+                                <img class="foto" src="assets/img/32.jpg" alt="">
+                            </div>
+                    </div>
+
+                    <div class="mix detail-container pgc">                    
                         <div class="detail-description">
-                            <h1>PERFIL INDUSTRIALIZADO “U” PGU</h1>
-                            <p>Solera se usa como:</p>
+                            <h1>PERFIL INDUSTRIALIZADO “C” PGC</h1>
+                            <p>Montante se usa como:</p>
                             <ul>
-                                <li>Viga-Puntal-Bloqueador-Cenefa-Atiesador.</li>
-                                <li>Perfil galvanizado.</li>
-                                <!-- <li>Dimensiones PGC</li>
-                                <li>100x40x12 (x6m) ESP 0,94</li>
-                                <li>150x40x12 (x6m) ESP 1,28</li> -->
+                                <li>Viga-Puntal-Bloqueador-Correa-Cabio-Larguero.</li>
+                                <li>Perfil galvanizado. Con o sin perforaciones (punch) para instalaciones.</li>                           
                             </ul>
                             <div class="descarga">
                             <a href=""><i class='bx bx-import icon-descarga'></i></a>
@@ -91,55 +127,36 @@
                         </div>
 
                         <div class="detail-img cuadro-grande">
-                            <img class="cuadro" src="assets/img/pgu.png" alt="">
+                            <img src="assets/img/pgc.png" alt="">
 
                             <img class="foto" src="assets/img/32.jpg" alt="">
                         </div>
-                </div>
-
-                <div class="detail-container">                    
-                    <div class="detail-description">
-                        <h1>PERFIL INDUSTRIALIZADO “C” PGC</h1>
-                        <p>Montante se usa como:</p>
-                        <ul>
-                            <li>Viga-Puntal-Bloqueador-Correa-Cabio-Larguero.</li>
-                            <li>Perfil galvanizado. Con o sin perforaciones (punch) para instalaciones.</li>                           
-                        </ul>
-                        <div class="descarga">
-                        <a href=""><i class='bx bx-import icon-descarga'></i></a>
-                        <span>DESCARGAR FICHA TECNICA</span>
-                        </div>  
                     </div>
 
-                    <div class="detail-img cuadro-grande">
-                        <img src="assets/img/pgc.png" alt="">
+                    <div class="mix detail-container pgo">                    
+                        <div class="detail-description">
+                            <h1>OMEGA ESTRUCTURAL - PGO</h1>
+                            <p>Perfil de acero galvanizado conformado en frío. Sus funciones mayormente son utilizarlo como correa en estructuras livianas y recibir revestimientos exteriores en seco (placas cementicias, chapas, madera, etc.)</p>
+                            <!-- <ul>
+                                <li>Viga-Puntal-Bloqueador-Correa-Cabio-Larguero.</li>
+                                <li>Perfil galvanizado. Con o sin perforaciones para instalaciones.</li>
+                                <li>Dimensiones PGC</li>
+                                <li>100x40x12 (x6m) ESP 0,94</li>
+                                <li>150x40x12 (x6m) ESP 1,28</li>
+                            </ul> -->
+                            <div class="descarga">
+                            <a href=""><i class='bx bx-import icon-descarga'></i></a>
+                            <span>DESCARGAR FICHA TECNICA</span>
+                            </div>  
+                        </div>
 
-                        <img class="foto" src="assets/img/32.jpg" alt="">
+                        <div class="detail-img cuadro-chico">
+                            <img src="assets/img/pgo.png" alt="">
+
+                            <img class="foto" src="assets/img/32.jpg" alt="">
+                        </div>
                     </div>
-                </div>
 
-                <div class="detail-container">                    
-                    <div class="detail-description">
-                        <h1>OMEGA ESTRUCTURAL - PGO</h1>
-                        <p>Perfil de acero galvanizado conformado en frío. Sus funciones mayormente son utilizarlo como correa en estructuras livianas y recibir revestimientos exteriores en seco (placas cementicias, chapas, madera, etc.)</p>
-                        <!-- <ul>
-                            <li>Viga-Puntal-Bloqueador-Correa-Cabio-Larguero.</li>
-                            <li>Perfil galvanizado. Con o sin perforaciones para instalaciones.</li>
-                            <li>Dimensiones PGC</li>
-                            <li>100x40x12 (x6m) ESP 0,94</li>
-                            <li>150x40x12 (x6m) ESP 1,28</li>
-                        </ul> -->
-                        <div class="descarga">
-                        <a href=""><i class='bx bx-import icon-descarga'></i></a>
-                        <span>DESCARGAR FICHA TECNICA</span>
-                        </div>  
-                    </div>
-
-                    <div class="detail-img cuadro-chico">
-                        <img src="assets/img/pgo.png" alt="">
-
-                        <img class="foto" src="assets/img/32.jpg" alt="">
-                    </div>
                 </div>
                 
                 <div class="detail-container">                    
@@ -221,6 +238,7 @@
 
     
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>

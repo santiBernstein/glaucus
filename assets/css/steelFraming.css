@@ -20,6 +20,7 @@
 .selector{
     text-align: center;
     margin-bottom: 20px;
+    box-sizing: border-box;
     margin-top: 20px;
 }
 .btn-select{
@@ -62,7 +63,8 @@
 }
 
 .descarga{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 }
@@ -88,12 +90,13 @@
     height: 225px;
     width: fit-content;
     margin: auto;
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 768px){
 
     .info-card{
-        margin-top: 110px;
+        margin-top: 125px;
         flex-direction: row-reverse;
     }
     .info-description-left h1{
@@ -113,27 +116,20 @@
 
 @media screen and (min-width: 1024px){
 
-    /* .detail-container{
-        display: flex;
-    } */
+    
     .detail-img{
         flex-direction: inherit;        
         width: 85%;
         margin: auto;
         margin-top: 25px;
+        margin-bottom: 25px;
     }
     .cuadro-grande{
         height: 310px;
-    }
-    .cuadro-chico{
-        height: 110px;
-    }
+    }   
     .cuadro-dry{
-        height: 130px;
-    }
-    .cuadro-dry-chico{
-        height: 80px;
-    }
+        height: 150px;
+    }   
     .detail-description{
         text-align: justify;
         width: 85%;

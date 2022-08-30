@@ -4,8 +4,17 @@
     margin-top: 100px;
 }
 .product-img{
-    height: 390px;
+    height: 240px;
     margin-left: auto;
+}
+.product-description-left{
+    margin: 0 15px;
+    position: relative;
+    bottom: 30px;
+}
+.product-description{
+    margin-top: 10px;
+    text-align: justify;
 }
 
 .product-description-left h1{
@@ -16,7 +25,7 @@
 .product-description-left p{
     color: #2D69AC;
     font-family: 'montserratbold';
-    padding-top: 5px;
+    padding: 10px 0;
 }
 .product-description-left span{
     font-family: 'roboto_condensedregular';
@@ -31,7 +40,7 @@
     border-width: 0;
     margin-bottom: 15px;
     margin-right: 3px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #2D69AC;
     font-family: 'roboto_condensedregular';
     font-size: 16px;
     width: auto;
@@ -88,19 +97,35 @@
 .foto{
     padding: 5px;
     height: 225px;
-    width: fit-content;   
+    width: fit-content;
+    margin: 10px auto;   
 }
 
 .cuadro{
-    /* display: none; */
+    display: none;
 }
 .cuadro-mobile{
-    height: fit-content;
+    width: fit-content;
+    margin: auto;
 }
 
 @media screen and (min-width: 768px){
 
-      
+    .product-img{
+        height: 390px;
+    }
+    .detail-img{
+        flex-direction: inherit;        
+        width: 85%;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .detail-description{
+        text-align: justify;
+        width: 85%;
+        margin: auto;
+    }      
     .product-description-left h1{
         font-size: 35px;
     }
@@ -108,12 +133,13 @@
         width: 70%;
     }
     .foto{
-        height: 350px;
+        height: 230px;
     }
     .btn-select{
         margin-top: 20px;
         color: white;
         initial-letter: .5;
+        border-bottom: 1px solid white;
     }
     .selector{
         background-color: grey;
@@ -147,25 +173,15 @@
     .product-description-left span{
         margin-left: 15px;
         font-size: 20px;
-    }   
-    .detail-img{
-        flex-direction: inherit;        
-        width: 85%;
-        margin: auto;
-        margin-top: 25px;
-        margin-bottom: 25px;
     }
+    .cuadro-mobile{
+        display: none;
+    }      
     .cuadro{
+        display: inline;
         height: fit-content;
-    }     
-   
-    .detail-description{
-        text-align: justify;
-        width: 85%;
-        margin: auto;
-    }
+    }       
     .foto{
-        height: 230px;
         margin-left: auto;
     }
     

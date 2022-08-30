@@ -148,10 +148,11 @@ img{
     display: none;
     position: absolute;
     background-color: var(--text-color);
-    top: 30px;
-    padding: 15px 5px;
-    padding-left: 0;
+    top: 31px;
+    padding: 15px 7px;
     height: 90px;
+    border-radius: 15%;
+    border: solid 1px;
 }
 .sub-item{
     margin-left: 5px;

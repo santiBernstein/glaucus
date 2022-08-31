@@ -56,16 +56,20 @@
     display: none;
 }
 .title-perfiles{
-    height: 60px;
+    height: 40px;
     margin-top: 5px;
 }
 .cuadro-selector i{
     font-size: 50px;
     position: relative;
-    bottom: 20px;
+    bottom: 46px;
+    left: 75px;
 }
 .show-perfiles{
     display: block;
+}
+.menu-perfiles-desktop{
+    display: none;
 }
 .detail-cards{
     overflow: hidden;
@@ -151,9 +155,12 @@
     }
     .foto{
         height: 230px;
+    }
+    .cuadro-selector{
+        display: none;
     } 
-    .selector{
-        background-color: grey;
+    .menu-perfiles-desktop{
+        display: block;
     }
     .btn-select:hover{
         border-bottom: 3px solid white;

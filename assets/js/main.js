@@ -30,6 +30,17 @@ document.addEventListener(
 
     menuBars.addEventListener("click", toggleNav);
 
+    //menu perfiles
+    const btnPerfiles = document.getElementById("cuadro-selector");
+    const submenuPerfiles = document.getElementById("submenu-perfiles");
+
+    function togglePerfiles() {
+      submenuPerfiles.classList.toggle("show-perfiles");
+
+    }
+
+    btnPerfiles.addEventListener("click", togglePerfiles);
+
     // active and remove menu //
     const navLink = document.querySelectorAll(".nav--link");
 

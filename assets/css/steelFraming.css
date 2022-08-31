@@ -52,6 +52,21 @@
     border-bottom: 3px solid white;
     font-weight: bold;      
 }
+.submenu-perfiles{
+    display: none;
+}
+.title-perfiles{
+    height: 60px;
+    margin-top: 5px;
+}
+.cuadro-selector i{
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+.show-perfiles{
+    display: block;
+}
 .detail-cards{
     overflow: hidden;
 }

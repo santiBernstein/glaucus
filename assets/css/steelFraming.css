@@ -167,7 +167,7 @@
         font-size: 35px;
     }
     .detail-description p{
-        width: 70%;
+        width: 50%;
     }
     .foto{
         height: 230px;
@@ -213,6 +213,9 @@
     .product-description-left span{
         margin-left: 15px;
         font-size: 20px;
+    }
+    .detail-description p{
+        width: 40%;
     }
     .cuadro-mobile{
         display: none;

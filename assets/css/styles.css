@@ -307,7 +307,7 @@ img{
 }
 .info-description-right p{
     font-family: 'roboto_condensedregular';
-    text-align: end;
+    text-align: justify;
     padding: .6rem 0;
 }
 .info-description-right img{
@@ -330,7 +330,7 @@ img{
 }
 .info-description-left p{
     font-family: 'roboto_condensedregular';
-    text-align: start;
+    text-align: justify;
     padding: .6rem 0;
 }
 .info-description-left img{

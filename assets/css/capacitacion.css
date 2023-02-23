@@ -33,6 +33,13 @@
     margin: 20px;
 }
 
+.info-about{
+    height: 240px;
+}
+.info-about p{
+    font-size: 25px;
+}
+
 @media screen and (min-width: 1024px){
 
     .carrusel-title{

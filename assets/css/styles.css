@@ -443,13 +443,13 @@ img{
     width: 170px;
     margin: auto;
     margin-top: 6rem;
+    margin-bottom: 1rem;
 }
 .pie h1{
     font-family: 'montserratlight';
     font-size: 15px;
     margin-top: 2rem;
     margin: auto;
-    margin-top: 1rem;
     font-weight: 500;
 }
 .icon-phone{

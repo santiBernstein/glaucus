@@ -92,6 +92,28 @@ document.addEventListener(
     }
 
     prodLink.forEach(n => n.addEventListener('click', linkAction))
+
+    // video
+    let myVideo = document.getElementById("myVideo");
+    let played = false;
+
+    window.onscroll = function() {
+      let videoPos = myVideo.getBoundingClientRect().top;
+      let windowHeight = window.innerHeight;
+      if (videoPos < (windowHeight - 100) && !played) {
+        myVideo.play();
+        played = true;
+      }
+    }
+
+
+    myVideo.addEventListener("click", function() {
+      if (myVideo.paused) {
+        myVideo.play();
+      } else {
+        myVideo.pause();
+      }
+    });
     
   },
   false

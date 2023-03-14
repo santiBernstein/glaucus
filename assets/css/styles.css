@@ -452,6 +452,7 @@ img{
     margin: auto;
     font-weight: 500;
     padding: 10px;
+    text-align: center;
 }
 .icon-phone{
     display: flex;

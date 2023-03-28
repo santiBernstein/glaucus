@@ -18,6 +18,19 @@
 .map iframe{
     width: 100%;
 }
+.carrusel-title{
+    font-family: 'montserratregular';
+    font-weight: bold;
+    color: var(--first-color);
+    width: 80%;
+    text-align: start;
+    margin: auto;
+    font-size: 35px;
+    position: relative;
+    bottom: 220px;
+    z-index: 1;
+    height: 0;
+}
 
 @media screen and (min-width: 768px){
     .contact-description{
@@ -32,3 +45,12 @@
     }
     
 }
+@media screen and (min-width: 1024px){
+
+    .carrusel-title{
+        bottom: 240px;
+        width: 60%;
+        font-size: 50px;
+        margin-left: 7.5%;
+    }
+}    

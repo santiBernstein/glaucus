@@ -37,7 +37,7 @@
     height: 240px;
 }
 .info-about p{
-    font-size: 25px;
+    font-size: 19px;
 }
 
 @media screen and (min-width: 1024px){
@@ -47,5 +47,8 @@
         width: 60%;
         font-size: 50px;
         margin-left: 7.5%;
+    }
+    .info-about p{
+        font-size: 25px;
     }
 }    
